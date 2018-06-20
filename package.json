@@ -1,19 +1,27 @@
 {
   "name": "blog-api",
   "version": "1.0.0",
-  "description": "Blog Api challenge for Thinkful",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-  },
-  "keywords": [
-    "node",
-    "express"
-  ],
-  "author": "Tom Lam",
-  "license": "ISC",
+  "description": "",
+  "main": "blogPostsRouter.js",
   "dependencies": {
-    "nodemon": "^1.17.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
     "uuid": "^3.2.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamktom/blog-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamktom/blog-api/issues"
+  },
+  "homepage": "https://github.com/lamktom/blog-api#readme"
 }
