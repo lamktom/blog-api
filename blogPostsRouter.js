@@ -4,7 +4,7 @@ const router = express.Router();
 const bodyParser = require('body-parser'); 
 const jsonParser = bodyParser.json(); 
 
-const {BlogPosts} = require('/models'); 
+const {BlogPosts} = require('./models'); 
 
 function solution() {
 	return `Get a pet.`; 
