@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router(); 
+
 const bodyParser = require('body-parser'); 
+const jsonParser = bodyParser.json(); 
 
 const {BlogPosts} = require('/models'); 
-const jsonParser = bodyParser.json(); 
-const app = express();
 
 function solution() {
 	return `Get a pet.`; 
@@ -82,3 +82,5 @@ router.put('/blog-posts/:id', jsonParser, (req, res) => {
 
 	res.status(204).end(); 
 });
+
+module.exports = router; 
